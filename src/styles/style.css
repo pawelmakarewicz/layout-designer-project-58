@@ -94,6 +94,11 @@ h4 {
   margin-top: 27px;
 }
 
+.title-postion-box {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
 /** POSITIONING   END **/
 
 /** BOX-MODEL   START **/
@@ -109,6 +114,8 @@ h4 {
 
 .header {
   position: relative;
+
+  background-color: #f5f4f0;
 }
 
 .inline-element {
@@ -137,6 +144,30 @@ h4 {
   margin-left: auto;
   padding-top: 100px;
   padding-bottom: 16px;
+}
+
+.wrapper-nav {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.flex-item-nav {
+  width: 350px;
+  margin-bottom: 20px;
+  padding: 24px;
+}
+
+.flex-item-nav:first-child {
+  padding: 0;
 }
 
 .header-button {
@@ -185,6 +216,16 @@ h3 {
   font-size: 34px;
 }
 
+.first-item-nav-text {
+  font-size: 52px;
+  line-height: 1.2em;
+}
+
+.nav-numbers {
+  font-size: 64px;
+  line-height: 1;
+}
+
 /** FONT   END **/
 
 /** VIEW  START **/
@@ -194,6 +235,10 @@ h3 {
 
 .text-color-orange {
   color: #fe8a02;
+}
+
+.text-color-white {
+  color: #fff;
 }
 
 .button-color-orange {
@@ -214,6 +259,10 @@ h3 {
   background-color: #42413c;
 }
 
+.bacground-color-whhite {
+  background-color: #f5f4f0;
+}
+
 /** VIEW  END **/
 
 .header::before {
@@ -222,11 +271,10 @@ h3 {
   width: 100vw;
   height: 100%;
 
-  background-color: #f5f4f0;
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.1;
 
   content: "";
 }
