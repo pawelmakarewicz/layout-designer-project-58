@@ -40,12 +40,15 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-  margin: 0;
-  padding: 0;
 }
 
 h1,
@@ -217,6 +220,18 @@ h4 {
   float: right;
 }
 
+li {
+  max-width: 100%;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.padding-zero {
+  padding: 0;
+}
+
 /** BOX-MODEL   END **/
 
 /** FONT   START **/
@@ -236,6 +251,7 @@ h1 {
 }
 
 h2 {
+  color: #fe8a02;
   font-size: 60px;
 }
 
