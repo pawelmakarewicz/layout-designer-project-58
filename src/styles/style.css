@@ -116,6 +116,10 @@ h4 {
   margin-top: 20px;
 }
 
+.position-of-links {
+  margin-top: 76px;
+}
+
 /** POSITIONING   END **/
 
 /** BOX-MODEL   START **/
@@ -250,6 +254,20 @@ li {
   height: 100%;
 }
 
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.form-box-position {
+  padding: 17px 0;
+
+  line-height: 1;
+}
+
 /** BOX-MODEL   END **/
 
 /** FONT   START **/
@@ -305,17 +323,26 @@ h3 {
   font-size: 18px;
 }
 
-.footer-send-form {
-  height: 50px;
-  margin-top: 9px;
-}
-
 .background-color-white {
   background-color: #e3e3e3;
 }
 
+.email-text {
+  font-size: 18px;
+}
+
 .terms-service-text {
   font-size: 12px;
+}
+
+.flex-container-send-form {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.send-form {
+  padding: 0 15px;
 }
 
 /** FONT   END **/
@@ -373,6 +400,14 @@ h3 {
 
 .text-color-light-white {
   color: #d7ccc0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.footer-link-text-color {
+  color: #007dc1;
 }
 
 /** VIEW  END **/
@@ -462,7 +497,34 @@ h3 {
 
 .footer-button::before {
   display: block;
-  margin: 15px 22.5px;
+  margin: 12.5px 22.5px;
 
   content: url("../images/send.svg");
+}
+
+.text-area {
+  padding: 0;
+  overflow: hidden;
+
+  font-size: 13.1px;
+
+  border: none;
+
+  resize: none;
+}
+
+::placeholder {
+  margin: 0;
+  padding: 0;
+
+  background-color: #e3e3e3;
+  border: none;
+}
+
+input:focus::placeholder {
+  margin: 0;
+  padding: 0;
+
+  background-color: #e3e3e3;
+  border: none;
 }
