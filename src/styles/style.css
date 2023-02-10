@@ -533,5 +533,6 @@ input:focus::placeholder {
 
 .link-wrapper {
   display: block;
+
   text-decoration: none;
 }
