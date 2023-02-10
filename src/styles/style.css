@@ -195,6 +195,7 @@ h4 {
 }
 
 .button {
+  display: inline-block;
   padding: 12px  24px;
 }
 
@@ -372,6 +373,7 @@ h3 {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
+  text-decoration: none;
 }
 
 .background-color-dark {
@@ -527,4 +529,9 @@ input:focus::placeholder {
 
   background-color: #e3e3e3;
   border: none;
+}
+
+.link-wrapper {
+  display: block;
+  text-decoration: none;
 }
